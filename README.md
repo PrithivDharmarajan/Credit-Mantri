@@ -15,14 +15,14 @@ https://api.openweathermap.org/data/2.5/forecast?q="CityName","CountryCode"&appi
 * Offline functionality (Network error messgae with retry options added)
 
 ## Screenshots
-* [<img src="https://drive.google.com/file/d/1D1Ise7BK-SOWzkaetCTTnMQ5-3O63Eam/view?usp=sharing" width=250>](https://drive.google.com/file/d/1D1Ise7BK-SOWzkaetCTTnMQ5-3O63Eam/view?usp=sharing)
-* [<img src="https://drive.google.com/file/d/1REFQ4Y9JAOrhYQQr7uk-2QM3_efTacvV/view?usp=sharing" width=250>](https://drive.google.com/file/d/1REFQ4Y9JAOrhYQQr7uk-2QM3_efTacvV/view?usp=sharing)
-* [<img src="https://drive.google.com/file/d/17Q9MRYEuE-zioz-Z-8ib5mdYNB19k9da/view?usp=sharing" width=250>](https://drive.google.com/file/d/17Q9MRYEuE-zioz-Z-8ib5mdYNB19k9da/view?usp=sharing)
-* [<img src="https://drive.google.com/file/d/13nfJwKqu_UKZV3rZcjYt-7bAuE5g1qr8/view?usp=sharing" width=250>](https://drive.google.com/file/d/13nfJwKqu_UKZV3rZcjYt-7bAuE5g1qr8/view?usp=sharing)
-* [<img src="https://drive.google.com/file/d/10BXSGyWUes5eaaI3yf-Of6LZjdYR_w6o/view?usp=sharing" width=250>](https://drive.google.com/file/d/10BXSGyWUes5eaaI3yf-Of6LZjdYR_w6o/view?usp=sharing)
-* [<img src="https://drive.google.com/file/d/1w3_hpEU884m1Qmsf1tCpd45vZMpqnmnh/view?usp=sharing" width=250>](https://drive.google.com/file/d/1w3_hpEU884m1Qmsf1tCpd45vZMpqnmnh/view?usp=sharing)
-* [<img src="https://drive.google.com/file/d/1yz_eZNa0ImwBJ134rdKDM9o1u0EuGsjy/view?usp=sharing" width=250>](https://drive.google.com/file/d/1yz_eZNa0ImwBJ134rdKDM9o1u0EuGsjy/view?usp=sharing)
- 
+![App Install](https://github.com/PrithivDharmarajan/Credit-Mantri/blob/master/CreditMantriImg/1.Install%20Stage.png)
+![Home Screen](https://github.com/PrithivDharmarajan/Credit-Mantri/blob/master/CreditMantriImg/2.Home%20screen.png) 
+![Weather Details](https://github.com/PrithivDharmarajan/Credit-Mantri/blob/master/CreditMantriImg/3.Weather%20details.png) 
+![City List](https://github.com/PrithivDharmarajan/Credit-Mantri/blob/master/CreditMantriImg/4.City%20list.png) 
+![Default share dialog](https://github.com/PrithivDharmarajan/Credit-Mantri/blob/master/CreditMantriImg/5.Default%20share%20dialog.png) 
+![Share Message Structure](https://github.com/PrithivDharmarajan/Credit-Mantri/blob/master/CreditMantriImg/6.Shared%20message%20structure.png) 
+![Settings Screen](https://github.com/PrithivDharmarajan/Credit-Mantri/blob/master/CreditMantriImg/7.Settings%20screen.png) 
+
 ## Code Support
 * The app screen size support is 330 - 1080 (With tab support).
 * Portrait and Landscape support also added.
