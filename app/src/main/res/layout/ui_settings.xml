@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/settings_parent_lay"
+    style="@style/LayoutMatch"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout style="@style/LayoutWidMatch_HeiWrap">
+
+        <include layout="@layout/ui_general_header" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/header_txt"
+        style="@style/TextRobotoMedium"
+        android:layout_marginStart="@dimen/size10"
+        android:layout_marginTop="@dimen/size10"
+        android:ellipsize="end"
+        android:gravity="start|center"
+        android:padding="@dimen/size5"
+        android:text="@string/unit_of_measurement"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text15" />
+
+    <RadioButton
+        android:id="@+id/celsius_radio_btn"
+        style="@style/TextRobotoMedium"
+        android:layout_marginStart="@dimen/size10"
+        android:checked="true"
+        android:gravity="start|center"
+        android:padding="@dimen/size7"
+        android:text="@string/celsius"
+        android:textSize="@dimen/text13" />
+
+    <RadioButton
+        android:id="@+id/fahrenheit_radio_btn"
+        style="@style/TextRobotoMedium"
+        android:layout_marginStart="@dimen/size10"
+        android:layout_marginTop="@dimen/size1"
+        android:checked="false"
+        android:gravity="start|center"
+        android:padding="@dimen/size7"
+        android:text="@string/fahrenheit"
+        android:textSize="@dimen/text13" />
+
+
+</LinearLayout>

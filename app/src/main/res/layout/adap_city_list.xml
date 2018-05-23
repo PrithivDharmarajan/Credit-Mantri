@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LayoutWidMatch_HeiWrap"
+    android:layout_margin="@dimen/size5"
+    android:elevation="@dimen/size2"
+    app:cardCornerRadius="@dimen/size5"
+    tools:ignore="UnusedAttribute">
+
+    <LinearLayout
+        style="@style/LayoutWidMatch_HeiWrap"
+        android:layout_marginBottom="@dimen/size5"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/date_txt"
+            style="@style/TextRobotoMedium"
+            android:padding="@dimen/size5"
+            android:textSize="@dimen/text15" />
+
+        <View
+            style="@style/LayoutWidMatch_HeiWrap"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size0.25"
+            android:layout_marginBottom="@dimen/size5"
+            android:background="@android:color/black" />
+
+        <LinearLayout
+            style="@style/LayoutWidMatch_HeiWrap"
+            android:layout_marginTop="@dimen/size5"
+            android:paddingEnd="@dimen/size10"
+            android:paddingStart="@dimen/size10">
+
+            <TextView
+                style="@style/TextRobotoRegular"
+                android:layout_width="0dip"
+                android:layout_marginStart="@dimen/size10"
+                android:layout_weight="1"
+                android:gravity="start|center"
+                android:text="@string/weather"
+                android:textSize="@dimen/text13" />
+
+            <TextView
+                style="@style/TextRobotoRegular"
+                android:layout_width="wrap_content"
+                android:layout_marginEnd="@dimen/size10"
+                android:layout_marginStart="@dimen/size10"
+                android:text="@string/colon"
+                android:textSize="@dimen/text13" />
+
+            <TextView
+                android:id="@+id/weather_txt"
+                style="@style/TextRobotoMedium"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:gravity="start|center"
+                android:textSize="@dimen/text13" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LayoutWidMatch_HeiWrap"
+            android:layout_marginTop="@dimen/size5"
+            android:paddingEnd="@dimen/size10"
+            android:paddingStart="@dimen/size10">
+
+            <TextView
+                style="@style/TextRobotoRegular"
+                android:layout_width="0dip"
+                android:layout_marginStart="@dimen/size10"
+                android:layout_weight="1"
+                android:gravity="start|center"
+                android:text="@string/temperature"
+                android:textSize="@dimen/text13" />
+
+            <TextView
+                style="@style/TextRobotoRegular"
+                android:layout_width="wrap_content"
+                android:layout_marginEnd="@dimen/size10"
+                android:layout_marginStart="@dimen/size10"
+                android:text="@string/colon"
+                android:textSize="@dimen/text13" />
+
+            <TextView
+                android:id="@+id/temperature_txt"
+                style="@style/TextRobotoMedium"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:gravity="start|center"
+                android:textSize="@dimen/text13" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/detail_lay"
+            style="@style/LayoutWidMatch_HeiWrap"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:paddingEnd="@dimen/size10"
+            android:paddingStart="@dimen/size10">
+
+            <LinearLayout
+                style="@style/LayoutWidMatch_HeiWrap"
+                android:layout_marginTop="@dimen/size5">
+
+                <TextView
+                    style="@style/TextRobotoRegular"
+                    android:layout_width="0dip"
+                    android:layout_marginStart="@dimen/size10"
+                    android:layout_weight="1"
+                    android:gravity="start|center"
+                    android:text="@string/humidity"
+                    android:textSize="@dimen/text13" />
+
+                <TextView
+                    style="@style/TextRobotoRegular"
+                    android:layout_width="wrap_content"
+                    android:layout_marginEnd="@dimen/size10"
+                    android:layout_marginStart="@dimen/size10"
+                    android:text="@string/colon"
+                    android:textSize="@dimen/text13" />
+
+                <TextView
+                    android:id="@+id/humidity_txt"
+                    style="@style/TextRobotoMedium"
+                    android:layout_width="0dip"
+                    android:layout_weight="1"
+                    android:gravity="start|center"
+                    android:textSize="@dimen/text13" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/LayoutWidMatch_HeiWrap"
+                android:layout_marginTop="@dimen/size5">
+
+                <TextView
+                    style="@style/TextRobotoRegular"
+                    android:layout_width="0dip"
+                    android:layout_marginStart="@dimen/size10"
+                    android:layout_weight="1"
+                    android:gravity="start|center"
+                    android:text="@string/wind"
+                    android:textSize="@dimen/text13" />
+
+                <TextView
+                    style="@style/TextRobotoRegular"
+                    android:layout_width="wrap_content"
+                    android:layout_marginEnd="@dimen/size10"
+                    android:layout_marginStart="@dimen/size10"
+                    android:text="@string/colon"
+                    android:textSize="@dimen/text13" />
+
+                <TextView
+                    android:id="@+id/wind_txt"
+                    style="@style/TextRobotoMedium"
+                    android:layout_width="0dip"
+                    android:layout_weight="1"
+                    android:gravity="start|center"
+                    android:textSize="@dimen/text13" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/LayoutWidMatch_HeiWrap"
+                android:layout_marginTop="@dimen/size5">
+
+                <TextView
+                    style="@style/TextRobotoRegular"
+                    android:layout_width="0dip"
+                    android:layout_marginStart="@dimen/size10"
+                    android:layout_weight="1"
+                    android:gravity="start|center"
+                    android:text="@string/pressure"
+                    android:textSize="@dimen/text13" />
+
+                <TextView
+                    style="@style/TextRobotoRegular"
+                    android:layout_width="wrap_content"
+                    android:layout_marginEnd="@dimen/size10"
+                    android:layout_marginStart="@dimen/size10"
+                    android:text="@string/colon"
+                    android:textSize="@dimen/text13" />
+
+                <TextView
+                    android:id="@+id/pressure_txt"
+                    style="@style/TextRobotoMedium"
+                    android:layout_width="0dip"
+                    android:layout_weight="1"
+                    android:gravity="start|center"
+                    android:textSize="@dimen/text13" />
+            </LinearLayout>
+
+            <View
+                style="@style/LayoutWidMatch_HeiWrap"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size0.25"
+                android:layout_marginTop="@dimen/size5"
+                android:background="@android:color/black" />
+
+
+            <TextView
+                android:id="@+id/share_txt"
+                style="@style/TextRobotoMedium"
+                android:padding="@dimen/size5"
+                android:text="@string/share_weather_details"
+                android:textSize="@dimen/text13" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

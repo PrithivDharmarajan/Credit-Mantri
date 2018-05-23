@@ -1,0 +1,72 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!-- Layout style - (width and height both are match_parent) -->
+    <style name="LayoutMatch" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!-- Layout style - (width and height both are wrap_content) -->
+    <style name="LayoutWrap" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Layout style - (width match_parent and  height wrap_content) -->
+    <style name="LayoutWidMatch_HeiWrap" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--Text style Roboto-Regular -->
+    <style name="TextRobotoRegular" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text12</item>
+        <item name="fontPath">fonts/OpenSans-Regular.otf</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--Text style Roboto-Medium -->
+    <style name="TextRobotoMedium" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text14</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="fontPath">fonts/OpenSans-Semi-Bold.otf</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <!--Button text style OpenSans-Bold-->
+    <style name="ButtonRobotoMedium" parent="android:Widget.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_height">@dimen/size40</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:textSize">@dimen/text15</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/blue_btn</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="fontPath">fonts/OpenSans-Semi-Bold.otf</item>
+    </style>
+
+    !--Dialog box-->
+
+    <style name="PopupBottomAnimation">
+        <item name="android:windowEnterAnimation">@anim/anim_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/anim_in_top</item>
+    </style>
+
+</resources>
