@@ -29,7 +29,7 @@ https://api.openweathermap.org/data/2.5/forecast?q="CityName","CountryCode"&appi
 * I followed the MVC pattern.
 
 ## App link (apk link)
-* https://drive.google.com/file/d/1HsqPjuq4WSBnOiFOXs_SKAbG1UYgozg_/view?usp=sharing
+* https://drive.google.com/file/d/1Dcii7ac0d32-KCqJIGqWHs1C_5V5PA8M/view?usp=sharing
 
 
  

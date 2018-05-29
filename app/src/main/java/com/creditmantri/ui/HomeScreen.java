@@ -137,6 +137,7 @@ public class HomeScreen extends BaseActivity {
             OpenWeatherMapResponse alertResponse = (OpenWeatherMapResponse) resObj;
             ArrayList<WeatherDetailsEntity> weatherDetailsArrList = alertResponse.getList();
             ArrayList<WeatherDetailsEntity> locWeatherArrList = new ArrayList<>();
+            mSortedArrList=new LinkedHashMap<>();
             for (int posInt = 0; posInt < weatherDetailsArrList.size(); posInt++) {
                 String dateStr = DateUtil.getCustomDateAndTimeFormat(weatherDetailsArrList.get(posInt).getDt_txt(), AppConstants.CUSTOM_DATE_TIME_FORMAT);
                 if (!mSortedArrList.containsKey(dateStr)) {
